@@ -1,0 +1,40 @@
+# RELATÓRIO DE IMPLEMENTAÇÃO DE SERVIÇOS AWS
+
+Data:06/02/2026
+Empresa: Abstergo Industries 
+Responsável: Thiago Ribeiro
+
+## Introdução
+Este RELATÓRIO apresenta o processo de IMPLEMENTAÇÃO de ferramentas na empresa Abstergo Industries, realizado por Thiago Ribeiro. O objetivo do projeto foi elencar 3 serviços AWS com foco em diminuição imediata de custos, garantindo melhor eficiência operacional e escalabilidade para os sistemas internos da empresa.
+
+## Descrição do Projeto
+O projeto de IMPLEMENTAÇÃO de ferramentas foi dividido em 3 etapas, cada uma com seus objetivos especí­ficos. A seguir, serão descritas as etapas do projeto:
+
+Etapa 1: 
+- Nome da ferramenta: Amazon EC2
+- Foco da ferramenta: Redução de custos computacionais por meio de instâncias otimizadas
+- Descrição de caso de uso:
+Nesta etapa, foram analisadas e ajustadas as instâncias EC2 utilizadas pela empresa. Houve substituição de instâncias subutilizadas por tipos mais adequados ao workload real, além da implementação de instâncias spot para tarefas de processamento não críticas.
+Esse ajuste proporcionou uma redução significativa nos custos mensais de computação, mantendo a performance necessária para as aplicações internas.
+
+
+Etapa 2: 
+- Nome da ferramenta: Amazon S3
+- Foco da ferramenta: Armazenamento de baixo custo e alta durabilidade
+- Foi realizado o mapeamento de arquivos armazenados localmente e em EBS para migração ao Amazon S3. A empresa passou a utilizar classes de armazenamento mais econômicas, como S3 Standard‑IA e S3 Intelligent‑Tiering, reduzindo gastos com dados pouco acessados.
+Essa etapa garantiu maior segurança, escalabilidade e diminuição expressiva no custo total de armazenamento.
+
+Etapa 3: 
+- Nome da ferramenta: Bucket S3
+- Foco da ferramenta: Organização, versionamento e políticas de ciclo de vida para economia
+- Nesta etapa, foram criados buckets S3 estruturados por áreas internas (TI, financeiro, projetos), habilitando versionamento e regras de ciclo de vida para mover automaticamente objetos para camadas mais baratas com base no acesso.
+A implementação dessas políticas reduziu o custo de retenção de dados históricos e melhorou o controle sobre governança de arquivos.
+
+
+
+## Conclusão
+A implementação das ferramentas na empresa Abstergo Industries trouxe como esperado redução direta de custos, maior escalabilidade, automação de processos e aumento significativo na eficiência da infraestrutura.
+Recomenda-se a continuidade da utilização dessas ferramentas, bem como a avaliação constante de novas tecnologias AWS que possam contribuir para melhorias adicionais nos processos corporativos.
+
+
+Assinatura do Responsável pelo Projeto: Thiago Ribeiro
